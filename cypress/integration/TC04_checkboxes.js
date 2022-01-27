@@ -5,7 +5,6 @@ describe("Verify Checkboxes", () => {
 
     const element = new Elements();
 
-
     it("Checkbox 1 is present and is unchecked", () => {
         cy.visit("https://the-internet.herokuapp.com/checkboxes");
         element.checkbox1()
@@ -26,7 +25,5 @@ describe("Verify Checkboxes", () => {
         element.checkbox2()
         .uncheck();
     })
-
-
 
 })
